@@ -33,7 +33,7 @@ hi VertSplit    ctermfg=255 ctermbg=255       " Vertical Split Line
 hi Folded       ctermbg=238 ctermfg=248
 hi FoldColumn   cterm=NONE ctermbg=NONE
 hi Title        ctermfg=016 
-hi Visual       ctermbg=187
+hi Visual       ctermfg=016 ctermbg=153
 hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=124
 
