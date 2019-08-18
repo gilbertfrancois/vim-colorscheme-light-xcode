@@ -73,6 +73,7 @@ hi pythonAttribute          ctermfg=130
 hi pythonString             ctermfg=021
 hi pythonQuotes             ctermfg=021
 hi docstring                ctermfg=160
+hi pythonComment            ctermfg=244
 
 
 autocmd Filetype python call SetColors()
