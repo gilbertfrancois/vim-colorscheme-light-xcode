@@ -1,8 +1,8 @@
 " Name: xcodedefault
-" Purpose: xcode default colorscheme to cterm
-" Maintainer: Christian Ohlin Jansson (john.christian.ohlin@gmail.com)
+" Purpose: xcode default colorscheme to cterm, modified from the file created
+" by Christian Ohlin Jansson. 
+" Author: Gilbert Francois Duivesteijn
 " 
-" @version: 1.0.0
 
 set background=light
 
@@ -35,7 +35,7 @@ hi FoldColumn   cterm=NONE ctermbg=NONE
 hi Title        ctermfg=016 
 hi Visual       ctermfg=016 ctermbg=153
 hi SpecialKey   ctermfg=126 ctermbg=153
-hi Error        ctermfg=231 ctermbg=124
+hi Error        ctermfg=231 ctermbg=203
 
 " Syntax highlighting
 hi Comment      ctermfg=28
@@ -107,3 +107,7 @@ hi link htmlEndTag htmlTag
 hi NerdTreeDirSlash cterm=NONE ctermfg=231 ctermbg=231
 hi NerdTreeCWD cterm=NONE ctermfg=241 ctermbg=NONE
 
+
+" ALE
+hi ALEWarningSign           ctermfg=229     ctermbg=229
+hi ALEErrorSign             ctermfg=203     ctermbg=203
