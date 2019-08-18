@@ -38,7 +38,7 @@ hi SpecialKey   ctermfg=126 ctermbg=153
 hi Error        ctermfg=231 ctermbg=203
 
 " Syntax highlighting
-hi Comment      ctermfg=28
+hi Comment      ctermfg=244
 hi Todo         ctermfg=9 
 hi Constant     ctermfg=126
 hi String       ctermfg=160
@@ -85,27 +85,27 @@ function SetColors()
 endfunction
 
 " Javascript
-hi javaScriptReserved ctermfg=126
-hi javaScriptNumber ctermfg=020
-hi javaScriptFuncArg ctermfg=055
-hi javascriptBlock ctermfg=030
-hi javascriptIdentifier ctermfg=126
+hi javaScriptReserved       ctermfg=126
+hi javaScriptNumber         ctermfg=020
+hi javaScriptFuncArg        ctermfg=055
+hi javascriptBlock          ctermfg=030
+hi javascriptIdentifier     ctermfg=126
 hi javascriptBOMHistoryProp ctermfg=016
-hi javascriptObjectLabel ctermfg=016
+hi javascriptObjectLabel    ctermfg=016
 
 
 " HTML
-hi htmlArg ctermfg=030
-hi htmlString ctermfg=020
-hi htmlComment ctermfg=28
-hi link htmlCommentPart htmlComment
-hi htmlTag ctermfg=244
-hi link htmlTagN htmlTag
-hi link htmlEndTag htmlTag
+hi htmlArg                  ctermfg=030
+hi htmlString               ctermfg=020
+hi htmlComment              ctermfg=244
+hi htmlTag                  ctermfg=244
+hi link htmlCommentPart     htmlComment
+hi link htmlTagN            htmlTag
+hi link htmlEndTag          htmlTag
 
 " NerdTree
-hi NerdTreeDirSlash cterm=NONE ctermfg=231 ctermbg=231
-hi NerdTreeCWD cterm=NONE ctermfg=241 ctermbg=NONE
+hi NerdTreeDirSlash         cterm=NONE ctermfg=231 ctermbg=231
+hi NerdTreeCWD              cterm=NONE ctermfg=241 ctermbg=NONE
 
 
 " ALE
